@@ -167,7 +167,7 @@
     <Compile Include="carro.cs" />
     <Compile Include="carros.cs" />
     <Compile Include="conn.cs" />
-    <Compile Include="conxao.cs" />
+    <Compile Include="conexao.cs" />
     <Compile Include="gerenciarCarroAPI.cs">
       <SubType>Form</SubType>
     </Compile>

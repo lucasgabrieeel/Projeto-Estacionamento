@@ -34,12 +34,6 @@ namespace estacionamento_2
             {
                 string path = "config.json";
 
-                if (!File.Exists(path))
-                {
-                    MessageBox.Show($"Arquivo '{path}' não encontrado em: {Directory.GetCurrentDirectory()}");
-                    throw new FileNotFoundException("config.json não encontrado.");
-                }
-
                 string json = File.ReadAllText(path);
                 return JsonSerializer.Deserialize<Config>(json);
             }
